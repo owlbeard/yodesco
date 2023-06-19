@@ -1,0 +1,30 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+#spin {
+  animation: spin 2s linear 1 forwards;
+}
+
+@keyframes spin {
+  from {
+    transform: rotate(0deg) scale(100%) translateX(-200%);
+  }
+  to {
+    transform: rotate(360deg) scale(500%) translateX(0);
+    top: 175px;
+  }
+}
+
+.shade {
+  text-shadow: #000 1px 0 10px;
+}
+
+.stopScroll {
+  height: 100vh;
+  overflow: hidden;
+}
+
+.overlay {
+  z-index: 999;
+}

@@ -13,7 +13,7 @@ export default function Hero() {
         src={HeroImage.src}
         alt="Stock Tır Resmi"
       />
-      <div className="p-4 overflow-hidden z-10 mx-auto flex flex-col gap-4 sm:p-24 items-start bg-black bg-opacity-40 text-white self-center rounded-xl">
+      <div className="p-4 z-10 mx-auto flex flex-col gap-4 sm:p-24 items-start bg-black bg-opacity-40 text-white self-center rounded-xl">
         <m.h1
           animate={{ x: 0 }}
           initial={{ x: '-120%' }}

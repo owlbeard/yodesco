@@ -11,7 +11,7 @@ export default function Hero() {
         src={HeroImage.src}
         alt="Stock Tır Resmi"
       />
-      <div className="w-4/5 overflow-hidden z-10 mx-auto flex flex-col gap-4 sm:p-24 sm:pl-0 items-start  text-white self-center">
+      <div className="w-4/5 z-10 mx-auto flex flex-col gap-4 sm:p-24 sm:pl-0 items-start  text-white self-center">
         <m.h1
           animate={{ x: 0 }}
           initial={{ x: '-120%' }}

@@ -22,7 +22,7 @@ export default function Hero() {
           alt="Patron"
         ></img>
       )}
-      <div className="w-3/4 overflow-hidden z-10 mx-auto flex flex-col gap-4 sm:p-24 sm:pl-0 items-start  text-white self-center rounded-xl">
+      <div className="w-3/4 z-10 mx-auto flex flex-col gap-4 sm:p-24 sm:pl-0 items-start  text-white self-center rounded-xl">
         <m.h1
           animate={{ x: 0 }}
           initial={{ x: '-180%' }}

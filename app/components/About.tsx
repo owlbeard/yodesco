@@ -17,7 +17,7 @@ export default function Hero() {
         <m.h1
           animate={{ x: 0 }}
           initial={{ x: '-120%' }}
-          className="shade text-4xl md:text-6xl font-extrabold drop-shadow-lg"
+          className="shade text-3xl md:text-6xl font-extrabold drop-shadow-lg"
         >
           Buralarda bir yerdeyiz!
         </m.h1>

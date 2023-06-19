@@ -17,7 +17,7 @@ export default function Hero() {
           initial={{ x: '-120%' }}
           className="shade text-4xl md:text-6xl font-extrabold drop-shadow-lg"
         >
-          İşte Sürdürebilir Hizmetlerimizden Sadece Birkaçı!
+          İşte Sürdürülebilir Hizmetlerimizden Sadece Birkaçı!
         </m.h1>
         <m.div
           animate={{ x: 0 }}

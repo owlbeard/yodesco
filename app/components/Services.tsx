@@ -21,7 +21,7 @@ export default function Hero() {
         </m.h1>
         <m.div
           animate={{ x: 0 }}
-          initial={{ x: '-120%' }}
+          initial={{ x: '-150%' }}
           transition={{ duration: 0.5, delay: 0.5 }}
           className="flex flex-col"
         >

@@ -16,14 +16,14 @@ export default function Hero() {
       <div className="p-4 z-10 mx-auto flex flex-col gap-4 sm:p-24 items-start bg-black bg-opacity-40 text-white self-center rounded-xl">
         <m.h1
           animate={{ x: 0 }}
-          initial={{ x: '-120%' }}
+          initial={{ x: '-150%' }}
           className="shade text-3xl md:text-6xl font-extrabold drop-shadow-lg"
         >
           Buralarda bir yerdeyiz!
         </m.h1>
         <m.div
           animate={{ x: 0 }}
-          initial={{ x: '-120%' }}
+          initial={{ x: '-250%' }}
           transition={{ duration: 0.5, delay: 0.5 }}
           className="flex flex-col gap-4"
         >

@@ -34,10 +34,10 @@ export default function Hero() {
             Bulamazsanız arayın ya da mail atın, biz size döneriz!
           </p>
           <div className="flex gap-4 flex-col md:flex-row">
-            <p className="flex items-center gap-1 shade text-2xl drop-shadow-lg">
+            <p className="flex items-center gap-1 shade text-xl drop-shadow-lg">
               <FaPhoneAlt /> +90 533 661 64 54
             </p>
-            <p className="flex items-center gap-1 shade text-2xl drop-shadow-lg">
+            <p className="flex items-center gap-1 shade text-xl drop-shadow-lg">
               <RiMailFill /> turanaltun68@hotmail.com
             </p>
           </div>

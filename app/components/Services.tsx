@@ -19,25 +19,40 @@ export default function Hero() {
         >
           İşte Sürdürülebilir Hizmetlerimizden Sadece Birkaçı!
         </m.h1>
-        <m.div
-          animate={{ x: 0 }}
-          initial={{ x: '-150%' }}
-          transition={{ duration: 0.5, delay: 0.5 }}
-          className="flex flex-col"
-        >
-          <ul className="list-disc rounded-xl p-2">
-            <li className="shade text-2xl drop-shadow-lg">
-              Atık döküm kumu nakliyesi
-            </li>
-            <li className="shade text-2xl drop-shadow-lg">Hafriyat</li>
-            <li className="shade text-2xl drop-shadow-lg">
-              Döküm kumu atıklarının nakliyesi
-            </li>
-            <li className="shade text-2xl drop-shadow-lg">
-              Atık kumların döküm alanlarından nakil işlemi
-            </li>
-          </ul>
-        </m.div>
+        <ul className="list-disc rounded-xl p-2">
+          <m.li
+            animate={{ x: 0 }}
+            initial={{ x: '-150%' }}
+            transition={{ duration: 0.5, delay: 0.5 }}
+            className="shade text-2xl drop-shadow-lg"
+          >
+            Atık döküm kumu nakliyesi
+          </m.li>
+          <m.li
+            animate={{ x: 0 }}
+            initial={{ x: '-150%' }}
+            transition={{ duration: 0.5, delay: 1 }}
+            className="shade text-2xl drop-shadow-lg"
+          >
+            Hafriyat
+          </m.li>
+          <m.li
+            animate={{ x: 0 }}
+            initial={{ x: '-150%' }}
+            transition={{ duration: 0.5, delay: 1.5 }}
+            className="shade text-2xl drop-shadow-lg"
+          >
+            Döküm kumu atıklarının nakliyesi
+          </m.li>
+          <m.li
+            animate={{ x: 0 }}
+            initial={{ x: '-150%' }}
+            transition={{ duration: 0.5, delay: 2 }}
+            className="shade text-2xl drop-shadow-lg"
+          >
+            Atık kumların döküm alanlarından nakil işlemi
+          </m.li>
+        </ul>
       </div>
     </>
   );

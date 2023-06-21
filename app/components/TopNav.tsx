@@ -1,5 +1,4 @@
 import React from 'react';
-import Link from 'next/link';
 import { FaPhoneAlt, FaLinkedin, FaFacebook, FaTwitter } from 'react-icons/fa';
 import { RiMailFill } from 'react-icons/ri';
 
@@ -8,25 +7,25 @@ export default function TopNav() {
     <div className="bg-yodesco h-16 flex justify-around items-center text-white">
       <div className="flex gap-4">
         <p className="flex items-center gap-1">
-          <FaPhoneAlt /> +90 533 661 64 54
+          <FaPhoneAlt /> +55 555 555 55 55
         </p>
         <p className="flex items-center gap-1">
-          <RiMailFill /> turanaltun68@hotmail.com
+          <RiMailFill /> j0hnd0e@gmail.com
         </p>
       </div>
       <div className="flex items-center gap-4">
-        <button className="p-3 px-10 bg-white rounded-full border-2 border-white hover:bg-yodesco hover:text-white text-black font-bold">
-          <a href="https://www.youtube.com/watch?v=yUuTdM7uhQo">Teklif Al</a>
+        <button className="p-3 px-10 bg-white rounded-full border-2 border-white hover:bg-yodesco hover:text-white text-black font-bold active:translate-y-2 transition-all">
+          Teklif Al
         </button>
-        <Link href="https://www.youtube.com/shorts/lknhNS6qMOo">
+        <div className="hover:scale-125 active:translate-y-2 transition-all">
           <FaLinkedin />
-        </Link>
-        <Link href="https://www.youtube.com/shorts/lknhNS6qMOo">
+        </div>
+        <div className="hover:scale-125 active:translate-y-2 transition-all">
           <FaFacebook />
-        </Link>
-        <Link href="https://www.youtube.com/shorts/lknhNS6qMOo">
+        </div>
+        <div className="hover:scale-125 active:translate-y-2 transition-all">
           <FaTwitter />
-        </Link>
+        </div>
       </div>
     </div>
   );

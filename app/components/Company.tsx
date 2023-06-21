@@ -1,6 +1,6 @@
 'use client';
 
-import HeroImage from '../assets/company.png';
+import HeroImage from '../assets/firmamiz.jpg';
 import { motion as m } from 'framer-motion';
 
 export default function Hero() {
